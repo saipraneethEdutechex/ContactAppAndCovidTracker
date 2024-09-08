@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Contact Management and Covid Tracker App
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -8,7 +10,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
@@ -16,7 +18,7 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
@@ -39,9 +41,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## APIs Used
+
+### Covid-19 APIs
+
+- **Worldwide Covid-19 Data**
+  - **Endpoint**: [https://disease.sh/v3/covid-19/all](https://disease.sh/v3/covid-19/all)
+  - **Description**: Provides global Covid-19 data including total cases, deaths, and recoveries.
+
+- **Country-Specific Covid-19 Data**
+  - **Endpoint**: [https://disease.sh/v3/covid-19/countries](https://disease.sh/v3/covid-19/countries)
+  - **Description**: Provides Covid-19 data for each country, including total cases, deaths, and recoveries.
+
+- **Covid-19 Historical Data**
+  - **Endpoint**: [https://disease.sh/v3/covid-19/historical/all?lastdays=all](https://disease.sh/v3/covid-19/historical/all?lastdays=all)
+  - **Description**: Provides historical Covid-19 case data over a specified period (e.g., last 30 days).
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-# ContactAppAndCovidTracker
