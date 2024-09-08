@@ -1,4 +1,7 @@
 import React from "react";
+import Contacts from "../pages/Contacts";
+import Graphs from "../pages/Graphs";
+import Maps from "../pages/Maps";
 
 interface MainContentProps {
   tab: string;
@@ -9,13 +12,13 @@ const MainContent: React.FC<MainContentProps> = ({ tab }) => {
 
   switch (tab) {
     case "contacts":
-      content = <div>Contacts content goes here.</div>; // Replace with actual Contacts component or content
-      break;
-    case "maps":
-      content = <div>Maps content goes here.</div>; // Replace with actual Maps component or content
+      content = <Contacts />;
       break;
     case "graphs":
-      content = <div>Graphs content goes here.</div>; // Replace with actual Graphs component or content
+      content = <Graphs />;
+      break;
+    case "maps":
+      content = <Maps />;
       break;
     default:
       content = <div>Select a tab to see content.</div>;

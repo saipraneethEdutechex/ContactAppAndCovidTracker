@@ -1,22 +1,10 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faSignOutAlt } from "@fortawesome/free-solid-svg-icons";
-import "./Navbar.scss";
+// rafce
+import React from 'react'
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="navbar-title">ContactApp</div>
-      <div className="navbar-actions">
-        <button className="action-button user">
-          <FontAwesomeIcon icon={faUser} />
-        </button>
-        <button className="action-button logout">
-          <FontAwesomeIcon icon={faSignOutAlt} />
-        </button>
-      </div>
-    </div>
-  );
-};
+    <div></div>
+  )
+}
 
-export default Navbar;
+export default Navbar
